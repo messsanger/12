@@ -1,0 +1,46 @@
+body {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh;  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+  }  
+    
+  h1 {  
+    font-size: 24px; /* Adjust font size as needed */  
+    margin: 0 0 20px 0; /* Top and bottom outer margins */  
+  }  
+    
+  .boxed-heading {  
+    border: 1px solid black; /* Set the border to 1 pixel wide, solid line, and black */  
+    padding: 10px; /* Set the inner margin to 10 pixels to increase the space between the border and the text */  
+    margin-bottom: 20px; /* Set the bottom margin to 20 pixels to add some space below the title */  
+    text-align: center; /* Optional: Horizontal centered title text */  
+}
+    
+  .image-container {  
+    text-align: center; /* The content inside the horizontally centered container */  
+  }  
+    
+  .image-container img {  
+    display: block; /* Eliminate default gaps at the bottom of the image */  
+    width: 300px; /* Limit the maximum width of images to container width */  
+    height: auto; /* Maintain Image Scale */  
+  }  
+    
+  .image-container button {  
+    margin-top: 20px; /* Add spacing between images */  
+    padding: 10px 20px; /* padding  */  
+    font-size: 16px; /* font size */  
+    color: white; /* text color */  
+    background-color: lightblue; /* background color  */  
+    border: none; /* no border */  
+    border-radius: 5px; /* fillet */  
+    cursor: pointer; /* Change to hand shape when hovering over the mouse */  
+  }  
+    
+  .image-container button:hover {  
+    background-color: #45a049; /* Background color when hovering over the mouse */  
+  }
